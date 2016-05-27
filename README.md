@@ -1,7 +1,7 @@
 ## Swift MVVM Template
 
 Swift MVVM is an Xcode File Template for Generating minimum required files to create a module with MVVM model in Swift.
-When the template is installed, it will create a View Controller, View Manager, Logic Manager, View Nib hooked up with View Manager and View Model to follow the standard [Model-View-ViewModel][href1] ([MVVM in Swift][href]) design pattern.
+When the template is installed, it will create a View Controller, Table View Controller, Collection View Controller, View Model, to follow the standard [Model-View-ViewModel][href1] ([MVVM in Swift][href]) design pattern.
 [href1]: https://en.wikipedia.org/wiki/Model–view–viewmodel
 [href]: http://artsy.github.io/blog/2015/09/24/mvvm-in-swift/
 ### Install
