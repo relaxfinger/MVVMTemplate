@@ -8,8 +8,8 @@ When the template is installed, it will create a View Controller, Table View Con
 
 just type the commands below in terminal.
 
-    $ git clone https://github.com/freesuraj/SwiftTemplate.git
-    $ cd Swift MVVM
+    $ git clone https://github.com/relaxfinger/MVVMTemplate.git
+    $ cd MVVMTemplate 
     $ ./install-templates.sh
 
 If you got a permission denied error while executing the script file, give it an execution permission.
