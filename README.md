@@ -25,4 +25,4 @@ If you got a permission denied error while executing the script file, give it an
 
 ### Usage
 * After you've installed the template in Xcode, restart the Xcode. In your Xcode project, when you create a new file, you can select **Swift MVVM** as follows.
-![ScreenShot](https://raw.githubusercontent.com/freesuraj/SwiftTemplate/master/Screenshot.png)
+![ScreenShot](https://github.com/relaxfinger/MVVMTemplate/blob/master/Screenshot.png)
