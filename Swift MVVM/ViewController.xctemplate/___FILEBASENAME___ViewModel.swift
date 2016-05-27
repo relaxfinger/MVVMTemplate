@@ -9,7 +9,7 @@
 import Foundation
 import Alamofire
 
-class ___FILEBASENAMEASIDENTIFIER___ViewModel {
+class ___FILEBASENAMEASIDENTIFIER___ViewModel: YYBaseViewModel {
     
     init() {
         // Initialize any variables if any
