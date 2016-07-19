@@ -11,7 +11,7 @@ import Alamofire
 
 class ___FILEBASENAMEASIDENTIFIER___ViewModel: YYBaseViewModel {
     
-    init() {
+    override init() {
         // Initialize any variables if any
     }
     
@@ -19,7 +19,7 @@ class ___FILEBASENAMEASIDENTIFIER___ViewModel: YYBaseViewModel {
         
     }
     
-    override func gerMoreDataWithSuccess(success: ((Void) -> Void)?, failure: ((NSError?) -> Void)?) {
+    override func getMoreDataWithSuccess(success: ((Void) -> Void)?, failure: ((NSError?) -> Void)?) {
         
     }
 }
