@@ -8,6 +8,8 @@
 
 import Foundation
 import Alamofire
+import Then
+
 
 class ___FILEBASENAMEASIDENTIFIER___ViewModel: YYBaseViewModel {
     

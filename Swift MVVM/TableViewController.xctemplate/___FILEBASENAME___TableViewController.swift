@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Then
+
 
 class ___FILEBASENAMEASIDENTIFIER___TableViewController: YYBaseTableViewController {
     let  viewModel = ___FILEBASENAMEASIDENTIFIER___ViewModel()

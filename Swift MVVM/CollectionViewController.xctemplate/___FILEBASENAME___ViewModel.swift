@@ -9,6 +9,8 @@
 import Foundation
 import UIKit
 import Alamofire
+import Then
+
 
 class ___FILEBASENAMEASIDENTIFIER___ViewModel: YYBaseViewModel {
     
