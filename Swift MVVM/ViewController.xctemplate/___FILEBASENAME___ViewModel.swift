@@ -26,3 +26,25 @@ class ___FILEBASENAMEASIDENTIFIER___ViewModel: YYBaseViewModel {
 
 extension  ___FILEBASENAMEASIDENTIFIER___ViewModel {
 }
+
+//extension  ___FILEBASENAMEASIDENTIFIER___ViewModel {
+//    var numberOfSection: Int {
+//    }
+//    
+//    func numberOfRowsInSection(section: Int) -> Int {
+//    }
+//
+//    func heightForRowAtIndexPath(indexPath: NSIndexPath) -> Float {
+//    }
+//}
+//
+//extension  ___FILEBASENAMEASIDENTIFIER___ViewModel {
+//    var numberOfSection: Int {
+//    }
+//
+//    func numberOfItemsInSection(section: Int) -> Int {
+//    }
+//
+//    func itmeSizeAtIndexPath(indexPath: NSIndexPath) -> CGSize {
+//    }
+//}

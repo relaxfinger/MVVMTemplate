@@ -48,3 +48,75 @@ extension ___FILEBASENAMEASIDENTIFIER___ViewController {
     }
 }
 
+//extension ___FILEBASENAMEASIDENTIFIER___ViewController {
+// func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+//        return viewModel.numberOfSection
+//    }
+//    
+//    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        return viewModel.numberOfRowsInSection(section)
+//    }
+//    
+//    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+//        return viewModel.heightForRowAtIndexPath(indexPath)
+//    }
+//    
+//    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+//        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
+//        return cell
+//        
+//    }
+//}
+//
+//extension ___FILEBASENAMEASIDENTIFIER___ViewController {
+//    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+//        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+//    }
+//    
+//    func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
+//    
+//    }
+//
+//    func tableView(tableView: UITableView, didEndDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
+//    
+//    }
+//}
+
+
+//extension ___FILEBASENAMEASIDENTIFIER___ViewController {
+// func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+//        return viewModel.numberOfSection
+//    }
+//    
+//    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+//        return viewModel.numberOfItemsInSection(section)
+//    }
+//    
+//    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAtIndex section: Int) -> UIEdgeInsets {
+//        
+//    }
+//    
+//    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
+//        return viewModel.itemSizeAtIndexPath(indexPath)
+//    }
+//
+//    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+//        let cell = collectionView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
+//        return cell
+//        
+//    }
+//}
+//
+//extension ___FILEBASENAMEASIDENTIFIER___ViewController {
+//    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+//        collectionView.deselectItemAtIndexPath(indexPath, animated: true)
+//    }
+//    
+//    func collectionView(collectionView: UICollectionView, willDisplayCell cell: UICollectionViewCell, forItemAtIndexPath indexPath: NSIndexPath) {
+//    
+//    }
+//
+//    func collectionView(collectionView: UICollectionView, didEndDisplayCell cell: UICollectionViewCell, forItemAtIndexPath indexPath: NSIndexPath) {
+//    
+//    }
+//}
