@@ -51,8 +51,8 @@ extension ___FILEBASENAMEASIDENTIFIER___CollectionViewController {
     }
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___CollectionViewController {
- func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+extension ___FILEBASENAMEASIDENTIFIER___CollectionViewController: UICollectionViewDataSource {
+    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return viewModel.numberOfSection
     }
     
@@ -75,7 +75,7 @@ extension ___FILEBASENAMEASIDENTIFIER___CollectionViewController {
     }
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___CollectionViewController {
+extension ___FILEBASENAMEASIDENTIFIER___CollectionViewController: UICollectionViewDelegate {
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         collectionView.deselectItemAtIndexPath(indexPath, animated: true)
     }

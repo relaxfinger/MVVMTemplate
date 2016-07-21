@@ -51,8 +51,8 @@ extension ___FILEBASENAMEASIDENTIFIER___TableViewController {
     }
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___TableViewController {
- func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+extension ___FILEBASENAMEASIDENTIFIER___TableViewController: UITableViewDataSource {
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return viewModel.numberOfSection
     }
     
@@ -71,7 +71,7 @@ extension ___FILEBASENAMEASIDENTIFIER___TableViewController {
     }
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___TableViewController {
+extension ___FILEBASENAMEASIDENTIFIER___TableViewController: UITableViewDelegate {
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
     }

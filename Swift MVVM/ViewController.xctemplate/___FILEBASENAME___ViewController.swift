@@ -50,8 +50,8 @@ extension ___FILEBASENAMEASIDENTIFIER___ViewController {
     }
 }
 
-//extension ___FILEBASENAMEASIDENTIFIER___ViewController {
-// func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+//extension ___FILEBASENAMEASIDENTIFIER___ViewController: UITableViewDataSource {
+//    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
 //        return viewModel.numberOfSection
 //    }
 //    
@@ -70,7 +70,7 @@ extension ___FILEBASENAMEASIDENTIFIER___ViewController {
 //    }
 //}
 //
-//extension ___FILEBASENAMEASIDENTIFIER___ViewController {
+//extension ___FILEBASENAMEASIDENTIFIER___ViewController: UITableViewDelegate {
 //    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
 //        tableView.deselectRowAtIndexPath(indexPath, animated: true)
 //    }
@@ -85,8 +85,8 @@ extension ___FILEBASENAMEASIDENTIFIER___ViewController {
 //}
 
 
-//extension ___FILEBASENAMEASIDENTIFIER___ViewController {
-// func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+//extension ___FILEBASENAMEASIDENTIFIER___ViewController: UICollectionViewDataSource {
+//    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
 //        return viewModel.numberOfSection
 //    }
 //    
@@ -109,7 +109,7 @@ extension ___FILEBASENAMEASIDENTIFIER___ViewController {
 //    }
 //}
 //
-//extension ___FILEBASENAMEASIDENTIFIER___ViewController {
+//extension ___FILEBASENAMEASIDENTIFIER___ViewController: UICollectionViewDelegate {
 //    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
 //        collectionView.deselectItemAtIndexPath(indexPath, animated: true)
 //    }
