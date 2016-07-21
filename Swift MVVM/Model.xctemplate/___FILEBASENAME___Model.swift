@@ -10,7 +10,7 @@ import Foundation
 import ObjectMapper 
 import Then
 
-class ___FILEBASENAMEASIDENTIFIER___Model: Mappable {
+class ___FILEBASENAMEASIDENTIFIER___: Mappable {
     // add properties here
     // var id: String?
  
